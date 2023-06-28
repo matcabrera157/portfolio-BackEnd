@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("https://frontend3-9b030.web.app");
+        registry.addMapping("https://frontend4-dc8c1.web.app");
     }
 }
 
